@@ -41,4 +41,35 @@ header .inner {
     display: flex;
     justify-content: space-between;
     line-height: 50px;
+    font-size: 25px;
+}
+
+.photo .inner {
+    width: calc(100% -20px);
+    margin: 50px auto;
+    text-align: center;
+}
+
+.photo .inner img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.photo .inner p {
+    font-size: 100px;
+    color: #6c6b6b;
+}
+
+.photo .inner p span {
+    color: rgb(102, 18, 18);
+}
+
+.photo .inner p:last-child {
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+audio {
+    display: none;
 }

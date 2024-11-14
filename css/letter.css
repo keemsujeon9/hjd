@@ -7,6 +7,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'LeeSeoyun';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/LeeSeoyun.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -41,4 +48,34 @@ header .inner {
     display: flex;
     justify-content: space-between;
     line-height: 50px;
+    font-size: 25px;
+}
+
+.txt .inner {
+    font-family: 'LeeSeoyun';
+    width: calc(100% - 20px);
+    margin: 30px auto;
+    color: rgb(220, 218, 218);
+}
+
+.txt .inner span {
+    color: rgb(136, 4, 4);
+}
+
+.txt .inner h2 {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.txt .inner p {
+    line-height: 1.7;
+}
+
+.txt .inner h3 {
+    text-align: right;
+    font-size: 25px;
+}
+
+audio {
+    display: none;
 }
