@@ -11,7 +11,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #fff;
+
 }
 
 li {
@@ -43,33 +43,29 @@ header .inner {
     line-height: 50px;
 }
 
-.photo .inner {
-    width: calc(100% -20px);
-    margin: 50px auto;
+.main_visual .inner {
+    width: calc(100% - 20px);
+    margin: 20px auto;
     text-align: center;
 }
 
-.photo .inner img {
-    width: 100px;
-    height: 100px;
+.main_visual .inner h2 {
+    font-size: 40px;
+}
+
+.main_visual .inner img {
+    width: 300px;
     object-fit: cover;
+    margin: 40px 0;
 }
 
-.photo .inner p {
-    font-size: 100px;
-    color: #000000;
-}
-
-.photo .inner p span {
-    color: rgb(221, 0, 0);
-}
-
-.photo .inner p:last-child {
-    margin-top: 50px;
-    color: #747474;
+.main_visual .inner p {
     font-size: 15px;
+    color: #b9b9b9;
 }
 
-audio {
-    display: none;
+.main_visual .inner h3 {
+    font-size: 70px;
+    color: rgb(241, 0, 0);
+    margin-bottom: 50px;
 }
