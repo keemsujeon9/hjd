@@ -30,6 +30,8 @@ body {
 header {
     height: 50px;
     border-bottom: 1px dashed #b9b9b9;
+    position: relative;
+    z-index: 9999;
 }
 
 header .inner {
